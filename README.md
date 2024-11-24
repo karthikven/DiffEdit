@@ -53,3 +53,17 @@ The implementation uses the following components:
 
 - Experiment with different schedulers, UNets, and VAEs
 - Investigate alternative models (e.g., Flux) for better mask generation
+
+## Examples
+
+Here's an example of using DiffEdit to transform strawberries into apples:
+
+| Original Image | Generated Mask | Result |
+|:-------------:|:--------------:|:------:|
+| <img src="images/strawberries.png" width="250"/> | <img src="images/mask.png" width="250"/> | <img src="images/apples.png" width="250"/> |
+
+**Prompts used:**
+- Reference: "strawberries"
+- Query: "apples"
+
+The mask (middle image) shows the regions identified for editing, where the model transforms strawberries into apples while preserving the bowl and overall composition.
